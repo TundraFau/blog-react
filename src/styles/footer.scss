@@ -1,0 +1,63 @@
+footer {
+    position: absolute;
+    bottom: .5rem;
+
+    
+    
+
+    .container {
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .social {
+                display: grid;
+                grid-auto-flow: column;
+                gap: 2rem;
+
+                a {
+                    color: var(--secondary-text-color);
+                    font: 300 1rem var(--body-font);  
+                    transition: 0.3s                        
+                }
+                 
+                a:hover {
+                     color: var(--secondary-color);
+                 }
+            }
+            
+            .links {
+                ul {
+                
+                    li {
+                    list-style: none;
+                    font: 300 1rem var(--body-font);
+                    margin-top: .5rem;
+                    
+                        button {
+                           color: var(--secondary-text-color);
+                           font: 300 1rem var(--body-font);      
+                           transition: 0.3s;                    
+                        }
+                        
+                        button:hover {
+                            color: var(--secondary-color);
+                        }
+
+                        
+                        
+                    }
+                }
+            }
+        }
+       
+    }
+
+     .brand p {
+        font-size: .8rem;
+        text-align: center;
+        color: var(--secondary-text-color);
+    }
+}

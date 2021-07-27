@@ -1,0 +1,63 @@
+nav {
+    display: flex;
+
+    width: 90%;
+    height: 5rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    margin-bottom: 1.325rem;
+
+    padding: 0 2rem;
+
+    background-color: var(--body-color);
+
+    border-radius: .5rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .filter-baby-blue {
+        filter: invert(85%) sepia(5%) saturate(1710%) hue-rotate(186deg) brightness(99%) contrast(97%);
+    }
+    
+    #stamp {
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        grid-gap: 2rem;
+        
+        font: 300 1.5rem var(--body-font);
+        color: var(--main-text-color);
+        transition: 0.3s;
+
+        img {
+            display: inline-block;
+            height: 4rem;
+            width: 4rem;
+        }
+    }
+
+    #stamp:hover{
+        color: var(--secondary-color);
+        
+    }
+    .links {
+
+        button {
+        margin-left: 2rem;
+        text-decoration: none;
+        color: var(--main-text-color) ;
+        font: 300 1rem var(--body-font);
+        transition: 0.3s;
+        }
+
+        button:hover {
+        color: var(--secondary-color);
+        }
+    
+    }
+   
+
+}

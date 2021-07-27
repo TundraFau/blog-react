@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variables ================================= */
+
+:root {
+    /* colors */
+    --body-color: #0d1016;
+    --bg-color: #151B25;
+    --main-text-color: #C3D7F9;
+    --secondary-text-color: #82A4E3;
+    --secondary-color:#F7CB2D;
+    
+    /* fonts */
+    --body-font: "Roboto Mono", sans-serif;
+}
+
+/* Global ================================= */
+
+body {
+    background-color: var(--bg-color) ;
+}
+
+p {
+    color: var(--main-text-color);
+    font: 100 1rem var(--body-font);
+    -webkit-font-smoothing: antialiased;
+}
+h1 {
+    font: 300 2rem var(--body-font);
+    color: var(--main-text-color);
+}
+
+button {
+    background: none;
+    cursor: pointer;
+}
+.container {
+    background-color: var(--body-color);
+
+    width: 90vw;
+    height: auto;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    padding: 1rem 2rem;
+
+    border-radius: .5rem;
+}
+
+
+
