@@ -6,13 +6,10 @@ export function Home(){
     return(
 <div id="home">
     <div className="container">
-        <div id='home'>
-        <img className='photo' src="" alt="" />
-        <h1 id='name'>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-
-        </div>
+        <img className='photo' src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages5.fanpop.com%2Fimage%2Fphotos%2F28000000%2Frandomised-random-28065165-1024-819.jpg&f=1&nofb=1" alt="" />
+        <h1 id='name'>Olá, eu sou Júpiter</h1>
+        <p>Sou uma estudante de deselvolvimento web full-stack, utilizando React.JS e native para front end e ASP.NET para back end.</p>
+        <p>Também realizo deselvolvimento de games em Unity e arte, no meu tempo livre. Veja algumas de minhas peças abaixo!</p>
     </div>
 
     
