@@ -4,7 +4,7 @@ import '../styles/home.scss'
 
 export function Home(){
     return(
-<main>
+<div id="home">
     <div className="container">
         <div id='home'>
         <img className='photo' src="" alt="" />
@@ -16,7 +16,7 @@ export function Home(){
     </div>
 
     
-</main>
+    </div>
 
     );
 }

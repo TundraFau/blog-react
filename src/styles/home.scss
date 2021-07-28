@@ -1,8 +1,17 @@
 #home {
     text-align: center;
-    main {
-        .container {
-            height: 30rem;
-        }
+
+    .container {
+        background-color: var(--body-color);
+
+        width: 90vw;
+        height: auto;
+
+        margin: auto;
+        border-radius: .5rem;
+
+        padding: 0.8rem 2rem;
+
     }
+
 }
