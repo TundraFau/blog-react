@@ -1,13 +1,14 @@
+.swiper-button-next, .swiper-button-prev {
+    color: var(--secondary-color) !important
+}
 
+.swiper-pagination-bullet {
+    background: #2255DC;
+}
+.swiper-pagination-bullet-active {
+    background: var(--secondary-color);
+}
 
-// .swiper-container {
-
-//     display: flex;
-//     img {
-//         height: 30rem;
-//         width: 30rem;
-//     }
-
-
-// }
-
+.swiper-wrapper {
+    margin-top: 2rem;
+}

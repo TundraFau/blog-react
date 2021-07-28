@@ -18,9 +18,6 @@ nav {
     align-items: center;
 
 
-    .filter-baby-blue {
-        filter: invert(85%) sepia(5%) saturate(1710%) hue-rotate(186deg) brightness(99%) contrast(97%);
-    }
     
     #stamp {
         display: grid;
@@ -31,11 +28,13 @@ nav {
         font: 300 1.5rem var(--body-font);
         color: var(--main-text-color);
         transition: 0.3s;
+        cursor: pointer;
 
         img {
             display: inline-block;
             height: 4rem;
             width: 4rem;
+            filter: invert(85%) sepia(5%) saturate(1710%) hue-rotate(186deg) brightness(99%) contrast(97%);
         }
     }
 
@@ -45,15 +44,16 @@ nav {
     }
     .links {
 
-        button {
+        .nav_item {
         margin-left: 2rem;
         text-decoration: none;
         color: var(--main-text-color) ;
         font: 300 1rem var(--body-font);
         transition: 0.3s;
+        cursor: pointer;
         }
 
-        button:hover {
+        .nav_item:hover {
         color: var(--secondary-color);
         }
     

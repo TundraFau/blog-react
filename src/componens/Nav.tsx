@@ -7,14 +7,14 @@ export function Nav(){
     return(
         <header>
             <nav>
-                <button id="stamp">
-                    <img className='filter-baby-blue' src={planet} alt="planet"></img>                 
+                <a id="stamp">
+                    <img src={planet} alt="planet"></img>                 
                     Jupiter
-                </button>
+                </a>
                 <div className="links">
-                    <button className="nav_item active">Blog</button>
-                    <button className="nav_item">Projects</button>
-                    <button className="nav_item">Me</button>
+                    <a className="nav_item active">Blog</a>
+                    <a className="nav_item">Projects</a>
+                    <a className="nav_item">Me</a>
                 </div>
             </nav>
         </header>

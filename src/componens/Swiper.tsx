@@ -1,18 +1,13 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
-import SwiperCore, {Navigation} from 'swiper/core';
+import SwiperCore, {Navigation, Pagination} from 'swiper/core';
 
+import 'swiper/swiper-bundle.css'
 import '../styles/swiper.scss'
 
-
-type SlideType = {
-    
-}
-
-
 // Install Swiper modules
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, Pagination]);
 
-const slides: SlideType[] = new Array();
+const slides = new Array();
 
 for (let i = 0; i < 5; i++) {
     slides.push(
@@ -24,13 +19,16 @@ for (let i = 0; i < 5; i++) {
 
 export function SwiperComp() {
     return(
-        <>
+        <div className="swiper-wrapper">
         <Swiper 
-        
-        navigation={true} className="mySwiper">
+        navigation
+        pagination
+        spaceBetween={5}
+        slidesPerView={2}
+        className="mySwiper">
             {slides}
         </Swiper>
-        </>
+        </div>
 
     )
     
