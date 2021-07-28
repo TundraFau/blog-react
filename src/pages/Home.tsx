@@ -1,3 +1,4 @@
+import { SwiperComp } from '../componens/Swiper';
 import '../styles/home.scss'
 
 
@@ -7,12 +8,14 @@ export function Home(){
     <div className="container">
         <div id='home'>
         <img className='photo' src="" alt="" />
-        <h1 id='name'>Olá, eu sou Júpiter</h1>
-        <p>Sou uma estudante de deselvolvimento web full-stack, utilizando React.JS e native para front end e ASP.NET para back end.</p>
-        <p>Também realizo deselvolvimento de games em Unity e arte, no meu tempo livre. Veja algumas de minhas peças abaixo!</p>
+        <h1 id='name'>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
 
         </div>
     </div>
+
+    
 </main>
 
     );
