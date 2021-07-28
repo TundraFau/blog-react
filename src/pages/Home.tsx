@@ -1,4 +1,4 @@
-import { SwiperComp } from '../componens/Swiper';
+import { SwiperComp } from '../components/Swiper';
 import '../styles/home.scss'
 
 
